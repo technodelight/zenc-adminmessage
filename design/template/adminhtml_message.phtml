@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @var $this Zenc_AdminMessage_Block_Adminhtml_Message
+ */
+
+$messages = $this->getMessages();
+
+?>
+<?php foreach ($messages as $notification): ?>
+    <?php $type = isset($notification['type']) ? $notification['type'] : 'notice'; ?>
+    <div class="notification-global notification-global-<?php echo $type ?>">
+        <?php echo $notification['content'] ?>
+    </div>
+<?php endforeach; ?>
