@@ -21,7 +21,7 @@
         <layout>
             <updates>
                 <zenc_adminmessage>
-                    <file>zenc/adminmessage.xml</file>
+                    <file>zenc/adminmessage/adminmessage.xml</file>
                 </zenc_adminmessage>
             </updates>
         </layout>

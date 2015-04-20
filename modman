@@ -1,4 +1,4 @@
 src						app/code/community/Zenc/AdminMessage
-design/layout			app/design/adminhtml/default/default/layout/zenc
-design/template			app/design/adminhtml/default/default/template/zenc
+design/layout			app/design/adminhtml/default/default/layout/zenc/adminmessage
+design/template			app/design/adminhtml/default/default/template/zenc/adminmessage
 Zenc_AdminMessage.xml	app/etc/modules/Zenc_AdminMessage.xml
