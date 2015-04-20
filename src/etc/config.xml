@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Zenc_AdminMessage>
+            <version>0.1.0</version>
+        </Zenc_AdminMessage>
+    </modules>
+    <global>
+        <blocks>
+            <zenc_adminmessage>
+                <class>Zenc_AdminMessage_Block</class>
+            </zenc_adminmessage>
+        </blocks>
+        <helpers>
+            <zenc_adminmessage>
+                <class>Zenc_AdminMessage_Helper</class>
+            </zenc_adminmessage>
+        </helpers>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <zenc_adminmessage>
+                    <file>zenc/adminmessage.xml</file>
+                </zenc_adminmessage>
+            </updates>
+        </layout>
+    </adminhtml>
+    <default>
+        <zencadminmessage>
+            <general>
+                <enabled>0</enabled>
+                <messages></messages>
+            </general>
+        </zencadminmessage>
+    </default>
+</config>
