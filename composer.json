@@ -1,0 +1,15 @@
+{
+    "name": "technodelight/zenc-adminmessage",
+    "type": "magento-module",
+    "license": "OSLv3",
+    "description": "Display fixed notifications in Magento admin panel.",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
